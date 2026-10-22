@@ -1,0 +1,82 @@
+generated: '2026-10-22'
+method: searched
+probe: true
+source: https://www.sandfire.com.au/wp-content/uploads/2024/08/Privacy-Policy_2024-1.pdf
+policy_version: 'Approved by the Sandfire Resources Limited Board on 17 July 2024.'
+scope_note: >-
+  Sandfire Resources is an ASX-listed copper miner with no public API. Its only legal/trust pages linked from
+  www.sandfire.com.au are a Privacy Policy (PDF, 200, 238203 bytes) and a Terms of use page (200), which says
+  nothing about any regulatory signal below. Quotes are from the PDF text; line wraps in the PDF are joined with
+  a single space.
+signals:
+  data_subject_request:
+    url: https://www.sandfire.com.au/wp-content/uploads/2024/08/Privacy-Policy_2024-1.pdf
+    section: Accessing and updating personal information; Other rights of certain individuals
+    channel: Sandfire Privacy Officer (contact details in the 'Privacy Queries and Complaints' section)
+    rights_named: [access, correction, erasure (EU only), restriction (EU only), portability (EU only), objection (EU only), further information (EU only)]
+    evidence:
+    - source: https://www.sandfire.com.au/wp-content/uploads/2024/08/Privacy-Policy_2024-1.pdf
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        If a member of the public wishes to seek access to or request correction of their personal information
+        held by Sandfire, these requests must be made to our Privacy Officer using the contact details provided
+        below (in the ‘Privacy Queries and Complaints’ section of this policy).
+    - source: https://www.sandfire.com.au/wp-content/uploads/2024/08/Privacy-Policy_2024-1.pdf
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        There is no fee to submit a request for access to or alteration of your personal information, however,
+        if fulfilling your request involves a substantial diversion of resources, we may charge you a reasonable fee.
+    - source: https://www.sandfire.com.au/wp-content/uploads/2024/08/Privacy-Policy_2024-1.pdf
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        Note: This section applies only to your interactions with Sandfire subsidiaries based in Member States
+        of the European Union.
+    - source: https://www.sandfire.com.au/wp-content/uploads/2024/08/Privacy-Policy_2024-1.pdf
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        You have the right to request copies of your personal information in a structured, commonly used and
+        machine-readable format, and you have the right to transmit this data to another controller without
+        hindrance from us, provided both of the following conditions are met:
+    note: >-
+      Access and correction are offered to everyone via the Privacy Officer, free unless the request is a
+      substantial diversion of resources. Erasure, restriction, portability and objection (GDPR Arts. 15, 17,
+      18, 20, 21) are granted only for interactions with EU-based subsidiaries. No response deadline is stated
+      ("within a reasonable timeframe" applies to enquiries and complaints).
+  data_residency:
+    url: https://www.sandfire.com.au/wp-content/uploads/2024/08/Privacy-Policy_2024-1.pdf
+    section: Sharing of information with overseas recipients
+    commitment: none (cross-border transfer disclosed, no residency guarantee)
+    evidence:
+    - source: https://www.sandfire.com.au/wp-content/uploads/2024/08/Privacy-Policy_2024-1.pdf
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        From time to time we may need to make your personal information accessible to our service providers or
+        business partners who may be located outside of Australia.
+    - source: https://www.sandfire.com.au/wp-content/uploads/2024/08/Privacy-Policy_2024-1.pdf
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        This may include entering into a legally binding contract with the recipient under which they are obliged
+        to process your information with appropriate confidentiality and in accordance with applicable laws.
+    note: >-
+      The policy discloses that personal information may leave Australia and that transfers may be covered by
+      contract; it makes no commitment to keep data in any region and names no countries in this clause.
+  data_retention:
+    url: https://www.sandfire.com.au/wp-content/uploads/2024/08/Privacy-Policy_2024-1.pdf
+    section: Security of personal information
+    evidence:
+    - source: https://www.sandfire.com.au/wp-content/uploads/2024/08/Privacy-Policy_2024-1.pdf
+      http_status: 200
+      fetched: '2026-10-22'
+      quote: >-
+        Sandfire’s aim is to keep your personal information for no longer than is necessary to comply with our
+        legal obligations or for the purposes described above. Our document retention and disposal procedures
+        extend to records that include personal information.
+    note: >-
+      A purpose-limited retention principle with reference to internal retention and disposal procedures; no
+      retention periods are published.

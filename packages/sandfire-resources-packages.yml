@@ -1,0 +1,16 @@
+name: Sandfire Resources packages
+generated: '2026-10-22'
+method: none
+note: Checked, nothing found. Sandfire Resources is a copper mining company with no developer API, docs or GitHub org linked from its site; no first-party client libraries were found.
+checked:
+- url: https://registry.npmjs.org/-/v1/search?text=sandfire&size=5
+  status: 200
+  result: 0 results
+- url: https://pypi.org/pypi/sandfire/json
+  status: 404
+- url: https://api.github.com/search/repositories?q=sandfire+resources
+  status: 200
+  result: 0 repositories
+- url: https://api.github.com/users/sandfire-resources
+  status: 404
+packages: []

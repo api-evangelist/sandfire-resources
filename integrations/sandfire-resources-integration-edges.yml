@@ -1,0 +1,22 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/sandfire-resources/integrations
+- https://n8n.io/integrations/sandfire-resources/
+- https://composio.dev/toolkits/sandfire-resources
+- https://monid.ai/tools/sandfire-resources
+checked:
+- https://www.sandfire.com.au/
+- https://www.sandfire.com.au/sitemap_index.xml
+- https://www.sandfire.com.au/developers/
+- https://composio.dev/toolkits/sandfire-resources
+- https://monid.ai/tools/sandfire-resources
+- https://n8n.io/integrations/sandfire-resources/
+- https://zapier.com/apps/sandfire-resources/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
+note: Checked, no integrations found. Sandfire is a copper miner with no public API, app marketplace listing or
+  integrations/partners page; the only "partner" pages in its sitemap are charitable giving posts (Royal Flying
+  Doctor Service), which are not software integrations.

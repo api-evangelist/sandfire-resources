@@ -1,23 +1,90 @@
 aid: sandfire-resources
+
 name: Sandfire Resources
-description: 'Sandfire Resources is a company surfaced via the API Evangelist harvest backlog (source:
-  australia-apidays-2026) and added to the network as a stub for full-pipeline profiling.'
+
+description: Sandfire Resources (Sandfire) is a global copper producer that describes its mission as mining copper sustainably
+  to energise the future. Its website lists operations and projects including MATSA (Spain), Motheo (Botswana), Kalkaroo and
+  DeGrussa (Australia) and Black Butte (United States), plus exploration, and it publishes ASX announcements, financial, quarterly
+  and sustainability reports for investors. Sandfire is headquartered on Whadjuk Noongar land in Western Australia. No public
+  developer API, documentation or developer portal was found on its site; this profile records its corporate web presence.
+
 url: https://raw.githubusercontent.com/api-evangelist/sandfire-resources/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:australia-apidays-2026
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+- Mining
+- Copper
+- Natural Resources
+- Sustainability
+- Australia
+- ASX Listed
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+image: https://www.sandfire.com.au/wp-content/uploads/2022/02/Sandfire-Logo-Version1_CMYK.svg
+
 common:
+- type: Hosts
+  url: hosts/sandfire-resources-hosts.yml
+- type: DomainSecurity
+  url: security/sandfire-resources-domain-security.yml
 - type: Website
-  url: https://sandfire.com.au/
+  url: https://www.sandfire.com.au/
+- type: TermsOfService
+  url: https://www.sandfire.com.au/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.sandfire.com.au/wp-content/uploads/2024/08/Privacy-Policy_2024-1.pdf
+- type: Newsroom
+  url: https://www.sandfire.com.au/news/
+- type: Leadership
+  url: https://www.sandfire.com.au/about-sandfire/leadership/
+- type: Support
+  url: https://www.sandfire.com.au/contact-us/
+- type: Investors
+  url: https://www.sandfire.com.au/investors/
+- type: Careers
+  url: https://www.sandfire.com.au/careers/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/sandfire-resources/
+
+apis: []
+
+x-coverage:
+  state: covered
+  reason: identity-verified
+  detail: Identity verified from the company homepage (title "Sandfire - We mine copper sustainably to energise the future",
+    og:site_name Sandfire). No developer portal, API docs, pricing or GitHub org linked from the site.
+  evidence:
+  - url: https://www.sandfire.com.au/
+    status: 200
+  - url: https://www.sandfire.com.au/terms-of-use/
+    status: 200
+  - url: https://www.sandfire.com.au/contact-us/
+    status: 200
+  - url: https://www.sandfire.com.au/investors/
+    status: 200
+  - url: https://www.sandfire.com.au/careers/
+    status: 200
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 9
+  pass: modular-v1
+  engine: identity=anthropic,contract=anthropic,surfaces=anthropic,docs=anthropic,regulatory=anthropic

@@ -1,0 +1,25 @@
+name: Sandfire Resources MCP server
+type: MCPServer
+generated: '2026-10-22'
+method: none
+status: none
+source:
+- https://www.sandfire.com.au/.well-known/mcp.json
+- https://www.sandfire.com.au/llms.txt
+description: >-
+  Checked and found nothing. Sandfire Resources (a copper mining company) does not publish an official MCP server, either
+  hosted or as a local package. Its site has no developer portal and no OpenAPI contract that a candidate tool list could
+  be derived from. Probes on 2026-10-22: https://www.sandfire.com.au/.well-known/mcp.json returned 404 and
+  https://www.sandfire.com.au/llms.txt returned 404. Pre-flight contract discovery on sandfire.com.au and www.sandfire.com.au
+  found no openapi, asyncapi, graphql or mcp. A web search for a Sandfire Resources API or MCP server returned only unrelated
+  third-party directory listings.
+evidence:
+- url: https://www.sandfire.com.au/.well-known/mcp.json
+  status: 404
+- url: https://www.sandfire.com.au/llms.txt
+  status: 404
+deployment:
+  mode: none
+  auth: unknown
+  verified: searched
+tools: []
